@@ -28,7 +28,9 @@ spec:
       - name: spec.license.license
         value: "Enterprise"
       - name: spec.storageClass
-        value: "managed-nfs-storage"
+        value: "ibm-spectrum-scale-csi-fileset-dependent-cp4d"
+      - name: spec.zenCoreMetadbStorageClass
+        value: "ibm-spectrum-scale-csi-fileset-dependent-cp4d"
   syncPolicy:
     automated:
       prune: true

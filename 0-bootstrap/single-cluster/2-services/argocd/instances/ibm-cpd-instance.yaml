@@ -28,9 +28,9 @@ spec:
       - name: spec.license.license
         value: "Enterprise"
       - name: spec.storageClass
-        value: "ibm-spectrum-scale-csi-fileset-dependent-cp4d"
+        value: "ibm-spectrum-scale-csi-cpak4data1-lw"
       - name: spec.zenCoreMetadbStorageClass
-        value: "ibm-spectrum-scale-csi-fileset-dependent-cp4d"
+        value: "ibm-spectrum-scale-csi-cpak4data1-lw"
   syncPolicy:
     automated:
       prune: true
